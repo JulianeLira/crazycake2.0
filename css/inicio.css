@@ -273,7 +273,7 @@ label{
 	height: 40%;
 }
 
-#sobre-pg{
+#sobre{
 	text-align: justify;
 }
 
@@ -488,15 +488,13 @@ label{
 	margin-bottom: 40%;
 }
 
-#loj{
+.loj{
 	text-align: center;
 	margin-top: 50px;
 
 }
 
-#iloja{
-	width: 80%;
-	height: 80%;
+.iloja{
 	display: flex;
 	margin-top: 30px;
 	border-radius: 6px;
@@ -504,7 +502,6 @@ label{
 
 #linha8{
 	background: #3d3c3c;
-	display: flex;
 	width: 25%;
 	height: 5px;
 	border-radius: 50px;
@@ -514,7 +511,6 @@ label{
 #desloja{
 	text-align: justify;
 	margin-top: 20px;
-	padding: 20px;
 }
 
 
@@ -729,34 +725,17 @@ footer{
 		width: 15%;
 	}
 
-	#iloja{
-		width: 40%;
-		height: 40%;
-		display: flex;
-		flex-direction: column;
-		margin-left: 150px;
-	}
-
 	#desloja{
 		width: 40%;
-		position: relative;
-		bottom: 330px;
-		margin-left: 55%;
 		margin-top: 5px;
-		justify-content: center;
-		text-align: justify;
 	}
 
 	.horarios{
 		width: 40%;
-		margin-bottom: 300px;
-		margin-left: 55%;
 		margin-top: 5px;
-		justify-content: left;
 		text-align: justify;
 		list-style-type: circle;
 		flex-direction: column;
-
 	}
 
 	#lin2,
@@ -807,8 +786,18 @@ footer{
 		width: 24%;
 	}
 
-	#sobre-pg{
-		width:70%
+	#sobre{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.conteudo {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	#linha{

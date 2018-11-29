@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Basic" rel="stylesheet">
+	<title>CRAZYCAKE</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+    	<script type="text/javascript" src="js/slide.js"></script>
+    	<script type="text/javascript" src="js/menu.js"></script>
+</head>
+<body onload="entrar()">
+
+<!-- cabeçalho -->
+
+	<header>
+		<div id="caixa">
+			<div id="barra">
+				<button id="btn" onclick="abrir()"><img id="icon" src="imgs/icon-menu.png"></button>
+				<h1 id="nomes">CRAZYCAKE</h1>
+			</div>
+		</div>
+	</header>
+
+	<!-- menu de itens -->
+
+	<nav id="menu">
+		<div id="lin1"></div>
+		<div id="lin2"></div>
+		<div id="lin3"></div>
+		<div id="lin4"></div>
+		<div id="lin5"></div>
+		<div id="lin6"></div>
+			<ul>
+				<li id="li1"><a onclick="esconde2()" href="#home">HOME</a></li>
+				<li id="li2"><a onclick="esconde()" href="#escolha">CARDÁPIO</a></li>
+				<li id="li4"><a  onclick="esconde1()" href="#sobre" >SOBRE</a></li>
+				<li id="li5"><a onclick="esconde3()" href="#contatos">CONTATOS </a></li>
+			</ul>
+	</nav>
+
+<!-- carrocel -->
+
+	<main>
+
+		<div id="home">
+
+			<div class="slide" id="passa">
+				<img id="i1" src="imgs/cupcakes1.jpg" width="100%" height="20%">
+				<img id="i2" src="imgs/cupcakes2.png" width="100%" height="20%">
+				<img id="i3" src="imgs/cupcakes3.jpg" width="100%" height="20%">
+
+				<script type="text/javascript" src="js/slide.js"></script>
+			</div>
+
+
+			<h1 id="slogan">CrazyCake, a felicidade na simplicidade de um doce !!!</h1>
+
+			<button id="monte" name="entrar" value=""><p id="nm-btn" onclick="esconde()">VER CARDÁPIO</p></button>
+
+<!-- cardapio -->
+
+		</div>
+
+		<div id="escolha">
+
+			<h1 id="gl-pg">CUPCAKES</h1>
+			<div id="linha"></div>
+
+
+			<div id="imgis" class="imgis">
+			</div>
+
+			<div id="inf">
+			</div>
+
+		</div>
+
+		<!-- sobre -->
+
+		<div id="sobre">
+
+			<h2 id="loj">Nossa História ...</h2>
+			<div id="linha8"></div>
+
+			<img id="iloja" src="imgs/loja.jpg">
+
+			<p id="desloja">Inaugurada em Julho de 2016, a <b>Crazycake</b> é Fruto da sociedade entre a administradora de empresas Juliane Lira, a loja oferece cupcakes artesanais produzidos diariamente. As massas são batidas a mão para garantir a textura fofa e úmida. Algumas receitas de família foram adaptadas para as forminhas de cupcakes, assim como o amor e dedicação. O objetivo principal é que os clientes ao saborearem as delícias da marca lembrem-se de coisas boas e receitas da infância ou da família. Oferece a possibilidade de personalizar os bolinhos de acordo com a ocasião desejada.Nossa loja oferece serviços de entregas de cupcakes por encomenda via telefone e internet, além do foco em entregas de grandes quantidades, nós também oferecemos degustação de novos sabores, compra de cupcakes em pequenas quantidades feitas diretamente na loja podendo comer no local com um ótimo ambiente para apreciar seu cupcake e sentir-se acomodado. Temos funcionários atendendo a todo instante, o estabelecimento fica aberto de segunda a sábado das 8:00 às 20:00.</p>
+
+			<h2 id="loj">Horários de funcionamento</h2>
+			<div id="linha8"></div>
+
+			<img id="iloja" src="imgs/loja.jpg">
+
+			
+			<ul class="horarios" >
+				<li><b>Segunda - feira:</b> 7:00 às 20:00</li>
+				<li><b>Terça - feira:</b> 7:00 às 20:00</li>
+				<li><b>Quarta - feira:</b> 7:00 às 20:00</li>
+				<li><b>Quinta - feira:</b> 7:00 às 20:00</li>
+				<li><b>Sexta - feira:</b> 7:00 às 20:00</li>
+				<li><b>Sabádo:</b> 8:00 às 21:00</li>
+				<li><b>Domingo:</b> 7:00 às 12:00</li>
+			</ul>
+			
+
+		</div>
+
+		<!-- contatos -->
+
+		<div id="contatos">
+
+			<h1 id="entCont">Entre em Contato</h1>
+			<div id="linha2"></div>
+
+			<div class=" infos">
+				<div class="conts">
+					<div id="telefon">
+						<img id="te" src="imgs/tel-icon.png">
+						<h3 id="telel">(67)3432-3824</h3>
+					</div>
+
+					<div id="emai">
+						<img id="em" src="imgs/email-icon.png">
+						<h3 id="emass">crazycake@gmail.com</h3>
+					</div>
+				</div>
+
+				<div id="location">
+					<div id="estr">
+						<img id="loct" src="imgs/loc-icon.png">
+						<h3 id="rua">R. Laion Briens, 432</h3>
+					</div>
+					<div id="brss">
+						<img id="loct1" src="imgs/loc-icon.png">
+						<h3 id="bairro">B. Ruan Hens</h3>
+					</div>
+				</div>
+			</div>
+
+
+	</main>
+
+	<!-- rodape -->
+
+	<footer>
+		<div id="slas">
+			<h4 id="copy">© Copyright 2018</h4>
+			<p id="men">Não sei o que colocar aqui porque sempre que vejo um rodapé tem um monte de palavras pequenas e que praticamente ninguém lê então vou por o copyright em cima pra ninguém copiar minha ideia porque se copiar vai ser processado.</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/verperir.js"></script>
+</body>

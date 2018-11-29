@@ -1,0 +1,862 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Basic', sans-serif;
+}
+
+body{
+	background-color: #FFFAF0;
+	width: 100%;
+	height: 100%;
+}
+
+#barra{
+	display: flex;
+	background:#4527A0;
+	width: 100%;
+	height: 60px;
+}
+
+#nomes{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#brmenu{
+	display: flex;
+	background: green;
+	width: 100%;
+	height: 40px;
+}
+
+
+#btn{
+	background: none;
+	border: 0;
+	outline: none;
+	position: absolute;
+	left: 15px;
+	top: 2px;
+}
+
+#slogan{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 80%;
+	font-size: 30px;
+}
+
+
+#btn,
+#icon{
+	width: 30px;
+	height: 30px;
+	margin-top: 7px;
+}
+
+#monte{ 
+	background: #f44e4e ;
+	border: 0;
+	outline: none;
+	width: 36%;
+	height: 58px;
+	border-radius: 6px;
+	color: white;
+	display: flex;
+}
+
+#nm-btn{
+	display: flex;
+	text-align: center;
+	font-size: 12px;
+}
+
+nav{
+	background: #4527A0;
+	height: 96px;
+	display: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#lin1,
+#lin2,
+#lin3,
+#lin4,
+#lin5,
+#lin6{
+	background: #bbb;
+	width: 100%;
+	height: 1px;
+	position: absolute;
+}
+
+#lin1{
+	top: 82px;
+}
+
+#lin2{
+	top: 107px;
+}
+
+#lin3{
+	top: 132px;
+}
+
+#lin4{
+	top: 156px;
+}
+
+
+#menu{
+	display: none;
+}
+
+#clickimg,
+#foto{
+	width: 200px;
+	height: 200px;
+}
+
+.cards{
+	background: white;
+	display: block;
+	flex-direction: row;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	width: 200px;
+  	height: 320px;
+ 	text-align: center;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	margin-bottom: 10px;
+ 	margin-top: 8px;
+}
+
+#desc{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #777777;
+}
+
+#gl-pg{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.imgis{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+ 	justify-content: center;
+}
+
+#card:hover{
+	transform: scale(1.1);
+}
+
+#inf{
+	display: none;
+}
+#inf{ 
+	background: #ededed;
+	position: fixed;
+	top: 20px;
+	left: 0px;
+	right: 0px;
+	width: 90%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name,
+#descri{
+	text-align: center;
+}
+
+#name{
+	margin-bottom: 20px;
+}
+
+#ref,
+#enco{
+	display: flex;
+}
+
+#enco{
+	display: flex;
+	justify-content: center;
+	background: #f44e4e;
+	border: none;
+	outline: none;
+	border-radius: 6px; 
+	width: 60%;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+
+#btnn{
+	display: flex;
+	justify-content: center;
+	background: #f44e4e;
+	border: none;
+	outline: none;
+	border-radius: 6px; 
+	width: 30%;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#ref{
+	width: 30%;
+	height: 30%;
+	margin-bottom: 30px;
+	border-radius: 7px;
+}
+
+#descri{
+	margin-bottom: 10px;
+}
+
+#registro{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#nm,
+#cpf,
+#tele{
+	height: 24px;
+}
+
+#tele{
+	margin-bottom: 10px;
+}
+label{
+	display: flex;
+	flex-direction: left;
+}
+
+#nmr{
+	width: 40px;
+}
+
+
+#tit{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+#logo{
+	display: flex;
+	width: 40%;
+	height: 40%;
+}
+
+#sobre-pg{
+	text-align: justify;
+}
+
+#linha{
+	background: #3d3c3c;
+	display: flex;
+	width: 25%;
+	height: 5px;
+	margin-top: -16px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+#linha2{
+	background: #3d3c3c;
+	display: flex;
+	width: 25%;
+	height: 5px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+#escolha{
+	display: none;
+}
+
+#home{
+	display: block;
+}
+
+#close{
+	font-size: 	20px;
+	border: none;
+	border-radius:	50px;
+	width: 30px;
+	height: 30px;
+	background: none;
+	color: #bbb;
+	outline: none;
+}
+
+#te,
+#em,
+#loct,
+#loct1{
+	width: 35px;
+	height: 35px;
+}
+
+#telel{
+	display: flex;
+	position: relative;
+	bottom: 33px;
+	left: 40px;
+	
+}
+
+#emass{
+	display: flex;
+	position: relative;
+	bottom: 33px;
+	left: 40px;
+}
+
+#emai{
+	position: relative;
+	bottom: 15px;
+	left: 4px;
+}
+.conts{
+	border-color: black;
+	height: 90px;
+	width: 224px;
+	align-items: center; 
+	margin-bottom: 10px;
+}
+
+#telefon{
+	margin-top: 5px;
+	margin-left: 4px;
+}
+
+#rua{
+	position: relative;
+	bottom: 30px;
+	left: 35px;
+}
+
+#bairro{
+	position: relative;
+	bottom: 30px;
+	left: 35px;
+}
+
+#brss{
+	margin-top: -20px;
+}
+
+#estr{
+	margin-top: 6px; 
+}
+
+#location{
+	border-color: black;
+	height: 90px;
+	width: 224px;
+	align-items: center; 
+
+}
+
+#clac{
+	border: none;
+	background: #f44e4e;
+	color: white;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	margin-top: -10px;
+	margin-bottom: 6px;
+	height: 20px;
+	width: 110px;
+	align-items: center;
+	justify-content: center;
+	outline: none;
+	font-size: 10px;
+}
+
+#mos_preco{
+	display: flex;
+	position: relative;
+	left: 50px;
+	top: 5px;
+}
+
+#nmr{
+	position: relative;
+	top: -16px;
+}
+
+#ind1{
+	display: flex;
+	flex-direction: column;
+}
+
+#entCont{
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.envio,
+#lin{
+	display: flex;
+	flex-direction: column; 
+}
+
+.envio{
+	margin-top: 50px;
+}
+
+#lin{
+	width: 100%;
+}
+
+
+#nomeCont,
+#emailCont,
+#telCont{
+	margin-bottom: 20px;
+	border-bottom: solid 2px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-color: black;
+	width: 70%;
+	outline: none;
+}
+
+#msgCont{
+	margin-bottom: 20px;
+	border: solid 2px;
+	width: 70%;
+	height: 90px;
+}
+
+#nomeCont::-webkit-input-placeholder {
+  color: black;
+}
+#emailCont::-webkit-input-placeholder {
+  color: black;
+}
+#telCont::-webkit-input-placeholder {
+  color: black;
+}
+#msgCont::-webkit-input-placeholder {
+  color: black;
+
+}
+
+#enviaCont{
+	margin-bottom: 80px;
+	border: none;
+	background: black;
+	color: white;
+	width: 30%;
+	height: 50px;
+	font-size: 20px;
+	outline: none;
+}
+
+#contatos{
+	display: none;
+	margin-bottom: 40%;
+}
+
+#loj{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+#iloja{
+	width: 80%;
+	height: 80%;
+	display: flex;
+	margin-top: 30px;
+	border-radius: 6px;
+}
+
+#linha8{
+	background: #3d3c3c;
+	display: flex;
+	width: 25%;
+	height: 5px;
+	border-radius: 50px;
+	margin-top: 8px; 
+}
+
+#desloja{
+	text-align: justify;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+#gif{
+	display: flex;
+	margin-top: 15px;
+	width: 80%;
+	height: 80%;
+}
+
+#xs{
+	border: 0;
+	background: none;
+	outline: none;
+	flex-direction: row;
+	position: relative;
+	top: 20px;
+	left: 7px;
+	color: #ad1b1b;
+}
+
+#inc{
+	text-align: center;
+	color: white;
+}
+
+#cai{
+	width: 200px;
+	background: #f04e4e;
+	position:relative;
+	top: 30px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+#insi{
+	display: none;
+	position: fixed;
+	top: 2px;
+	left: 0;
+	right: 0;
+}
+
+footer{
+	background: #474747;
+	height: 70px;
+	margin-bottom: 0px
+}
+
+#copy{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: -7px;
+}
+
+#men{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 7px; 
+}
+
+#conf{
+	border-radius: 5px;
+	position: fixed;
+	background: #f04e4e;
+	width: 300px;
+	height: 260px;
+    left: 0;
+    right: 0;
+    top: 100px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#lis{
+	color: white;
+	position: relative;
+	top: -10px;
+}
+
+#p1,
+#p2,
+#p3,
+#p5,
+#p4{
+	text-align: left;
+	margin-left: 30px;
+	list-style: none; 
+}
+
+#xsi{
+	background: none;
+	color: #ad1b1b;
+	border: none;
+	margin-top: 5px;
+	margin-left: 5px;
+	outline: none;
+}
+
+#pront{
+	border: none;
+	color: white;
+	outline: none;
+	border-radius: 4px;
+	text-align: center;
+	background: #3f3f3f;
+	width: 90px;
+	height: 40px;
+	left: 0;
+	right: 0;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+}
+
+#prt{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 230px;
+}
+
+#ls{
+	align-items: center;
+	text-align: center;
+	position: relative;
+	bottom: 37px;
+	color: white;
+}
+
+#bd{
+	display: block;
+	background: #f04e4e;
+	width: 230px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+
+
+
+
+@media screen and (min-width: 950px){
+	.infos{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.conts{
+		margin-right: -190px;
+	}
+
+	#barra{
+		display: flex;
+		background:#4527A0;
+		width: 100%;
+		height: 60px;
+	}
+}
+
+
+@media screen and (min-width: 610px){
+
+	#conf{
+		height: 230px;
+	}
+
+	#barra{
+		display: flex;
+		background:#4527A0;
+		width: 100%;
+		height: 60px;
+	}
+
+	#lis{
+		display: block;
+	}
+
+
+	#copy{
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	#men{
+		text-align: center;
+		width: 30%;
+	}
+
+
+	#gif{
+		width: 30%;
+		height: 30%;
+		display: flex;
+	}
+	
+	#menu{
+		display: block;
+	}
+	#btn,
+	#icon{
+		display: none;
+	}
+
+
+	#linha8{
+		width: 15%;
+	}
+
+	#iloja{
+		width: 40%;
+		height: 40%;
+		display: flex;
+		flex-direction: column;
+		margin-left: 150px;
+	}
+
+	#desloja{
+		width: 40%;
+		position: relative;
+		bottom: 330px;
+		margin-left: 55%;
+		margin-top: 5px;
+		justify-content: center;
+		text-align: justify;
+	}
+
+	.horarios{
+		width: 40%;
+		margin-bottom: 300px;
+		margin-left: 55%;
+		margin-top: 5px;
+		justify-content: left;
+		text-align: justify;
+		list-style-type: circle;
+		flex-direction: column;
+
+	}
+
+	#lin2,
+	#lin3,
+	#lin4,
+	#lin6{
+		display: none;
+	}
+	nav{
+		height: 35px;
+	}
+
+	#lin1{
+	top: 94px;
+	}	
+
+	a{
+		display: block;
+	
+	}
+
+	li{
+		margin-bottom: 0;
+	}
+
+	ul{
+		display: flex;
+		flex: 1;
+		list-style: none;  
+  		justify-content: flex-end;
+  		align-items: center;
+  		position: relative;
+  		top: 8px;
+	}
+
+	#inf{
+		width: 30%;
+		left: 0;
+		right: 0;
+	}
+
+	#ref{
+		width:45%;
+		height:45%;
+	}
+
+	#logo{
+		width: 24%;
+	}
+
+	#sobre-pg{
+		width:70%
+	}
+
+	#linha{
+		width: 15%;
+	}
+
+	#telCont{
+		margin-left: 20px;
+	}
+
+	#lin{
+		width: 70%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	#nomeCont,
+	#emailCont,
+	#telCont,
+	#msgCont{
+		margin-bottom: 45px;
+		height: 22px;
+	}
+
+	#msgCont{
+		height: 150px;
+	}
+
+	#nomeCont::-webkit-input-placeholder {
+  		font-size: 22px;
+
+	}
+	#emailCont::-webkit-input-placeholder {
+  		font-size: 22px;
+
+	}
+	#telCont::-webkit-input-placeholder {
+  		font-size: 22px;
+
+	}
+	#msgCont::-webkit-input-placeholder {
+ 		font-size: 22px;
+
+	}
+
+	#nm-btn{
+		font-size: 25px;
+	}
+
+
+}

@@ -131,7 +131,7 @@ for(var i = 0; i < puxaBolo.length; i++){
 	divs.appendChild(as); //adiciona o link(a) dentro da div
 	divs.appendChild(hs); //adiciona o h3 dentro da div
 	divs.appendChild(leg); //adiciona a lengenda dentro da div
-    document.querySelector("#imgis").appendChild(divs); //adiciona a div dentro do #imgis
+    document.querySelector("#imgisBolos").appendChild(divs); //adiciona a div dentro do #imgis
 
 }
 
@@ -199,7 +199,7 @@ for(var i = 0; i < puxaTorta.length; i++){
 	divs.appendChild(as); //adiciona o link(a) dentro da div
 	divs.appendChild(hs); //adiciona o h3 dentro da div
 	divs.appendChild(leg); //adiciona a lengenda dentro da div
-    document.querySelector("#imgis").appendChild(divs); //adiciona a div dentro do #imgis
+    document.querySelector("#imgisTortas").appendChild(divs); //adiciona a div dentro do #imgis
 
 }
 

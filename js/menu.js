@@ -28,7 +28,7 @@ function esconde1(){
 	var entar = document.querySelector("#sobre").style.display;
 
 	if (entar == "none" ) {
-		document.querySelector('#sobre').style.display = "block";
+		document.querySelector('#sobre').style.display = "none";
 		document.querySelector('#home').style.display = "none";
 		document.querySelector('#escolha').style.display = "none";
 		document.querySelector('#contatos').style.display = "none";

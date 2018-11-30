@@ -159,6 +159,7 @@ li{
 
 .imgis{
 	display: flex;
+	width: 70%;
 	flex-wrap: wrap;
 	align-items: center;
  	justify-content: center;
@@ -275,6 +276,7 @@ label{
 
 #sobre{
 	text-align: justify;
+	display: none;
 }
 
 #linha{

@@ -41,7 +41,7 @@ function esconde1(){
 	}
 
 }
-
+//teste
 function esconde2(){
 	var entar = document.querySelector("#home").style.display;
 

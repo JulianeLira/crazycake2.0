@@ -47,13 +47,13 @@ function esconde2(){
 
 	if (entar == "none" ) {
 		document.querySelector('#home').style.display = "block";
-		document.querySelector('#sobre').style.display = "block";
+		document.querySelector('#sobre').style.display = "none";
 		document.querySelector('#contatos').style.display = "none";
 		document.querySelector('#escolha').style.display = "none";
 
 	}else{
-		document.querySelector('#sobre').style.display = "block";
 		document.querySelector('#home').style.display = "block";
+		document.querySelector('#sobre').style.display = "none";
 		document.querySelector('#escolha').style.display = "none";
 		document.querySelector('#contatos').style.display = "none";
 	}
